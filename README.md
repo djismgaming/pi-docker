@@ -8,7 +8,7 @@ Alias to install/update the container:
 
 ```bash
 nano ~/.bashrc
-alias pi-docker-update='docker build -t pi-docker -f /home/$USER/apps/docker-pi/Dockerfile.pi /home/ismael/apps/docker-pi/'
+alias pi-docker-update='docker build -t pi-docker -f /path/to/save/Dockerfile.pi /path/to/save/'
 ```
 
 Alias to use container easily on any working directory while adding any environment variables to the container:
